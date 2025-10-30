@@ -1,0 +1,22 @@
+{
+  "name": "discordsagira",
+  "version": "1.0.0",
+  "description": "Discord bot that leverages Open AI Agent to interact with Destiny2's API.",
+  "homepage": "https://github.com/mateovargas/discordsagira#readme",
+  "bugs": {
+    "url": "https://github.com/mateovargas/discordsagira/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateovargas/discordsagira.git"
+  },
+  "license": "ISC",
+  "author": "Mateo Vargas",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "build": "tsup src/index.ts --minify"
+  }
+}
